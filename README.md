@@ -1,4 +1,4 @@
-# photobooth
+# Photobooth
 
 How I build my PhotoBooth for my wedding.
 
