@@ -46,15 +46,18 @@ Wire and then enable camera (a reboot is required to enable it)
 sudo raspi-config
 ```
 
-Build the electrical circuit
+Build the electrical circuit (see wiring diagram below)
+* [See the Official doc](https://www.raspberrypi.org/documentation/usage/gpio-plus-and-raspi2/README.md)
+* [Beautiful pin mapping](https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/pinmappings/pinmappingsrpi)
 * Red LED with 560 ohms resistor to pin 15 (GPIO 22) and ground
 * Blue LED with 1K ohms resistor to pin 23 (GPIO 11) and gnd
 * Green LED with 220 ohms resistor to pin 19 (GPIO 10) and gnd
 
-(Please adjust resistor values with the need of the LED you used and the brightness you need)
+(Please adjust resistor values with the need of the LED you used and the brightness you want)
 * Button to pin 11 (GPIO 17) and gnd
+* All GND could be wired together (or not), to any GND pin.
 
-All GND could be wired together
+![Wiring Diagram](res/Wiring Diagram.png?raw=true "Wiring Diagram")
 
 ### Configuring
 Create a label (1090x334 px @ 300dpi) : photobooth_label.jpg, and upload it to the "res/" directory (an example is provided)
