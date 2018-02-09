@@ -57,7 +57,7 @@ Build the electrical circuit (see wiring diagram below)
 * Button to pin 11 (GPIO 17) and gnd
 * All GND could be wired together (or not), to any GND pin.
 
-![Wiring Diagram](res/Wiring Diagram.png?raw=true "Wiring Diagram")
+![Wiring Diagram](res/WiringDiagram.png "Wiring Diagram")
 
 ### Configuring
 Create a label (1090x334 px @ 300dpi) : photobooth_label.jpg, and upload it to the "res/" directory (an example is provided)
