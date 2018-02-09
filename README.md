@@ -49,10 +49,11 @@ sudo raspi-config
 Build the electrical circuit
 * Red LED with 560 ohms resistor to pin 15 (GPIO 22) and ground
 * Blue LED with 1K ohms resistor to pin 23 (GPIO 11) and gnd
-* Green LED with 220 ohms resistor to pin 19 (GPIO 10 )and gnd
+* Green LED with 220 ohms resistor to pin 19 (GPIO 10) and gnd
 
 (Please adjust resistor values with the need of the LED you used and the brightness you need)
-* Button to pin 17 and gnd
+* Button to pin 11 (GPIO 17) and gnd
+
 All GND could be wired together
 
 ### Configuring
