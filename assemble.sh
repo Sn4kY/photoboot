@@ -8,7 +8,7 @@ montage /tmp/montage2.jpg res/photobooth_label.jpg -tile 1x2 -geometry +5+5 -den
 montage /tmp/montage3.jpg -border 35 -bordercolor "#ffffff" -density 300 -units PixelsPerInch -geometry +0+0 /tmp/montage4.jpg
 while [ true ]
 do
-	if [ $(lpinfo --include-schemes usb -v | grep -c "Canon/SELPHY%20CP1200") -eq 1 ]
+	if [ $(/usr/sbin/lpinfo --include-schemes usb -v | grep -c "Canon/SELPHY%20CP1200") -eq 1 ]
 	then
 		break
 	fi
