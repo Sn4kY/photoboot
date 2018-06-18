@@ -17,7 +17,7 @@ do
 	sleep 2
 done
 lp -d Canon_SELPHY_CP1200 -P 1 /tmp/montage4.jpg
-mv -f /tmp/montage3.jpg archives/pb_${DATE}.jpg
+mv -f /tmp/montage4.jpg archives/pb_${DATE}.jpg
 rm -vf /tmp/*.jpg
 sleep 70
 sudo killall fbi
