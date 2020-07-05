@@ -1,5 +1,6 @@
 #!/usr/bin/python
 from picamera import PiCamera
+from picamera import Color
 from time import sleep
 from gpiozero import Button
 from gpiozero import LED
@@ -35,6 +36,7 @@ def main():
     greenled.on()
     #camera.start_preview(fullscreen=False, window = (0, 20, 480, 640))
     camera.start_preview()
+    camera.annotate_background = Color('black')
     camera.annotate_text = "Appuyez sur le bouton pour debuter !"
     
     button.wait_for_press()
